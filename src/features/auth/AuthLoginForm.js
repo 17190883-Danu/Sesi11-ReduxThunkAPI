@@ -33,7 +33,7 @@ const AuthLoginForm = () => {
             <Spinner animation="border" role="status">
               <span className="visually-hidden">Loading...</span>
             </Spinner>
-          ) : "Submitt"}
+          ) : "Submit"}
         </Button>
       </Form>
       <div>
@@ -44,7 +44,7 @@ const AuthLoginForm = () => {
         )}
         {!!authState?.isLoginSuccess && (
           <Alert variant="primary">
-            Success login
+            Berhasil, Selanjutnya Klik Get Post
           </Alert>
         )}
 
